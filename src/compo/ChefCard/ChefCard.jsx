@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ChefCard = ({ chef }) => {
@@ -7,7 +7,7 @@ const ChefCard = ({ chef }) => {
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} />
+                <Image style={{height:'15rem'}} src={image} fluid />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
