@@ -1,9 +1,11 @@
 import React from 'react';
+import { Card, Navbar } from 'react-bootstrap';
+import Header from '../Navbar/Header';
 
 const Home = () => {
     return (
         <div>
-            home coming
+            <Header></Header>
         </div>
     );
 };
